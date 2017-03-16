@@ -1,0 +1,29 @@
+{
+  "name": "good-morning",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Söderberg",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "jquery": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wooziie/goodmorning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wooziie/goodmorning/issues"
+  },
+  "homepage": "https://github.com/wooziie/goodmorning#readme",
+  "description": ""
+}

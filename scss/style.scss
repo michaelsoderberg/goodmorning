@@ -1,0 +1,73 @@
+// Import scss files
+@import "config";
+
+// Our components
+@import "components/container";
+@import "components/weather";
+
+html, body {
+	font-family: "Helvetica",Arial,Meiryo,sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+	font-size: 1rem;
+	margin:0;
+}
+
+a {
+	color: orange;
+	&:visited, &:hover {
+		color: orange;
+	}
+}
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	margin-top: 2rem;
+	font-color: grey;
+}
+img {
+	width: 100%;
+	margin-top: 2rem;
+}
+code {
+	color: grey;
+	background-color: transparent;
+	display: inline !important;
+}
+pre {
+	width: 100%;
+	height: auto;
+	border: none;
+	display: inline;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+	overflow-y: hidden;
+	line-height: 20px;
+
+}
+
+// Some general/global stuff
+html {
+	position: relative;
+  min-height: 100%;
+}
+body {
+	word-wrap: break-word;
+	hyphens: manual;
+	overflow-x: hidden; // IE...
+	margin-bottom: 225px;
+}
+.text {
+	&--center {
+		text-align: center;
+	}
+}
+.iframe-container {
+	position: relative;
+}
+.wrapper {
+	margin-top: 1rem;
+}
