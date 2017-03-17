@@ -1,3 +1,5 @@
+// https://darksky.net/dev/
+
 // http://opendata.smhi.se/apidocs/metfcst/parameters.html
 $(document).ready(function($) {
 	'use strict';
@@ -9,7 +11,8 @@ $(document).ready(function($) {
       let WeatherSymbol = data.timeSeries[i].parameters[18].values[0];
       let WeatherTemperature = data.timeSeries[i].parameters[1].values[0];
       let WeatherTime = data.timeSeries[i].validTime;
-      let formattedTime = WeatherTime.substr( 0, 10 );
+      let formattedTime = WeatherTime.substr( 0, 16 );
+
       $('.weather-info').append('<div class="weather-puff"><h3> Temperature: ' + WeatherTemperature + '</h3><div class="weather-symbol weather-symbol--' + WeatherSymbol + '"</div><p>' + formattedTime + '</p></div>' );
       // $('.weather-info').append('<div class="weather-symbol weather-symbol--' + WeatherSymbol + '"</div>');
       // $('.weather-info').append('<p>' + formattedTime + '</p>');
