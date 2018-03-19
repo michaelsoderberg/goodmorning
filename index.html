@@ -3,17 +3,17 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>Tobii Pro SDK documentation</title>
+      <title>Dashboard.</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-
-      <base href="./" />
 
       <link rel="shortcut icon" type="image/png" href="favicon.png"/>
       <!-- Place favicon.ico in the root directory -->
 
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
       <link rel="stylesheet" href="css/style.css">
 
     </head>
@@ -25,7 +25,12 @@
 
       <div class="wrapper">
       <div class="container">
-
+        
+        <div class="dateHolder">
+          <div class="day"></div>
+          <div class="time"></div>
+          <div class="date"></div>
+        </div>
         <div class="morning-info-container">
           <!-- Weather -->
           <div class="weather">
@@ -37,18 +42,7 @@
           <div class="traffic">
             <h2> No need to rush, here is next departure </h2>
             <div class="traffic-info">
-            </div>
-          </div>
-          <!-- News -->
-          <div class="news">
-            <h2> Some news coming up </h2>
-            <div class="latest-news">
-            </div>
-          </div>
-          <!-- Weather -->
-          <div class="calendar">
-            <h2> No stress, here is your schedule </h2>
-            <div class="calendar-info">
+              <img class="busLogo" src="/images/busBig.svg" />
             </div>
           </div>
 
@@ -58,6 +52,7 @@
       <!-- Internal JavaScript files and third party ones
       ================================================== -->
       <script type='text/javascript' src='node_modules/jquery/dist/jquery.min.js'></script>
+      <script type='text/javascript' src='node_modules/moment/min/moment-with-locales.min.js'></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       <script type='text/javascript' src="js/main.js"></script>
       <script type='text/javascript' src="js/traffic.js"></script>

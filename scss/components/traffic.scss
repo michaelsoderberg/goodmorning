@@ -1,0 +1,33 @@
+.traffic {
+    .traffic-info {
+        .busLogo {
+            max-width: 300px;
+            margin: 0 auto;
+            display: block;
+        }
+        .next {
+            text-align: center;
+            margin-top: 20px
+        }
+        div {
+            text-align: center;
+            list-style: none;
+            margin-bottom: 5px;
+            padding: 0 5px; 
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 20px;
+
+            .timeStamp {
+                margin-left: 30px;
+            }
+
+            .busLogo {
+                height: 50px;
+                width: auto;
+                margin: 0;
+                padding-right: 10px;
+            }
+        }
+    }
+}

@@ -1,15 +1,21 @@
 .weather {
 
   .weather-puff {
-    display: inline-block;
-    padding: 0 30px;
+
+    h3 {
+      position: relative;
+      top: 133px;
+      left: 10px;
+      color: white;
+    }
   }
 
   .weather-symbol {
-    background: url('../images/weather.gif');
+    margin: 0 auto;
+    background: url('../images/weather_color.gif');
     background-repeat: no-repeat;
-    height: 120px;
-    width: 120px;
+    height: 170px;
+    width: 250px;
 
     &--1 {
       // Clear sky
@@ -17,23 +23,23 @@
     }
     &--2, &--3, &--4 {
       // Nearly clear sky
-      background-position: -271px -108px;
+      background-position: -270px -360px;
     }
     &--5, &--6, &--7 {
       // Cloudy sky
-      background-position: -138px -244px;
+      background-position: -270px -75px;
     }
     &--8, &--12 {
       // Rain
-      background-position: -401px -244px;
+      background-position: -8px -350px;
     }
     &--9, &--10, &--13 {
       // Thunder & lightning
-      background-position: -266px -372px;
+      background-position: -540px -56px;
     }
     &--11, &--14, &--15 {
       // Snow
-      background-position: -271px -244px;
+      background-position: -8px -350px;
     }
   }
 }
