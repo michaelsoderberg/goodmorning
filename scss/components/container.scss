@@ -3,11 +3,14 @@
   height: 100%;
   width: 100%;
   justify-content: center;
+  flex-direction: row;
+  align-items: stretch;
 
   > * {
     width: auto;
     padding: 15px;
     border: 10px solid black;
     margin: 10px;
+    flex: 1;
   }
 }
