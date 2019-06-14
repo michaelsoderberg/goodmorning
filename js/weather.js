@@ -3,7 +3,7 @@
 // http://opendata.smhi.se/apidocs/metfcst/parameters.html
 $(document).ready(function($) {
 	'use strict';
-  let url = 'http://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point/lon/17.988341/lat/59.322698/data.json';
+  let url = 'http://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/17.988341/lat/59.322698/data.json';
   $.get(url, function(data) {
 
     let timeStamps = data.timeSeries;
